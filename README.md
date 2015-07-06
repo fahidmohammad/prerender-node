@@ -1,7 +1,7 @@
-Localize.js SEO for Node.js
+Localize SEO for Node.js
 ===============
 
-Node.js middleware that provides full SEO support for Node.js apps using [Localize.js](https://localizejs.com). This middleware detects requests from search engine bots and crawlers, and replies with prerendered HTML via our hosted prerendering API.
+Node.js middleware that provides full SEO support for Node.js apps using [Localize](https://localizejs.com). This middleware detects requests from search engine bots and crawlers, and replies with prerendered HTML via our hosted prerendering API.
 
 Questions? We're happy to help. [Email us](https://localizejs.com/?modal=misc/support)!.
 
@@ -13,7 +13,7 @@ Install via [npm](https://www.npmjs.org/package/localizejs-seo)
     npm install localizejs-seo --save
     
 
-Add the Localize.js SEO middleware to your server:
+Add the Localize SEO middleware to your server:
 
     var localizejsSEO = require('localizejs-seo');
     
@@ -27,10 +27,10 @@ Include this middleware early in your application - before your application rout
     var localizejsSEO = require('localizejs-seo');
 ##### localizejsSEO.middleware(options)
 
-Creates the Localize.js SEO middleware. Accepted options:
+Creates the Localize SEO middleware. Accepted options:
  
 * `rootDomain` ***Required***. The root domain of your website. For example, `http://yourwebsite.com`
-* `version` *Optional*. Cache version. Localize.js caches prerendered HTML for a number of hours. You can clear this cache immediately by changing the version when you deploy and update to your application. `version` can be a number or string like an application ID or git commit ID.  
+* `version` *Optional*. Cache version. Localize caches prerendered HTML for a number of hours. You can clear this cache immediately by changing the version when you deploy and update to your application. `version` can be a number or string like an application ID or git commit ID.  
 * `prerenderAllRequests` *Optional*. When true, *all* requests are prerendered, not just requests from robots. Only useful for testing and debugging - do not activate in production.
 * `shouldPrerenderOverride` *Optional*. A function that overrides our internal `shouldPrerender` function. When this function returns true, the middleware will activate and prerender the route.
 
@@ -61,4 +61,4 @@ Forks and pull requests welcome!
 
 # Author
 
-[Localize.js](https://localizejs.com). For support, email [support@localizejs.com](mailto:support@localizejs.com).
+[Localize](https://localizejs.com). For support, email [support@localizejs.com](mailto:support@localizejs.com).
