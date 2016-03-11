@@ -1,4 +1,8 @@
-Localize SEO for Node.js
+
+NOTE: This library is deprecated. Please visit [this page](https://help.localizejs.com/docs/search-engine-optimization-seo) for more information.
+----------
+
+Localize prerender
 ===============
 
 Node.js middleware that provides full SEO support for Node.js apps using [Localize](https://localizejs.com). This middleware detects requests from search engine bots and crawlers, and replies with prerendered HTML via our hosted prerendering API.
