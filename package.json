@@ -3,13 +3,13 @@
     "name": "Brandon Paton",
     "email": "bp@brandonpaton.com"
   },
-  "name": "localizejs-seo",
-  "description": "Localize.js SEO prerendering middleware for Node.js",
-  "version": "0.1.6",
-  "homepage": "https://github.com/localizejs/node-localizejs-seo",
+  "name": "localize-prerender",
+  "description": "Localize prerendering middleware for Node.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Localize/prerender-node",
   "repository": {
     "type": "git",
-    "url": "git://github.com/localizejs/node-localizejs-seo.git"
+    "url": "git://github.com/Localize/prerender-node.git"
   },
   "contributors": [
     {
@@ -37,7 +37,7 @@
     "node": ">=0.6"
   },
   "bugs": {
-    "url": "https://github.com/localizejs/node-localizejs-seo/issues"
+    "url": "https://github.com/Localize/prerender-node/issues"
   },
   "readme": "",
   "dependencies": {
